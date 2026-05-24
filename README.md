@@ -37,3 +37,29 @@ pip install opencv-python
 pip install gradio
 pip install moviepy
 pip install numpy Pillow
+🚀 如何启动 (Usage)
+1. 准备权重文件
+确保将训练好的权重文件 best_emotion_model.pth 放置在项目根目录下。
+
+2. 启动系统
+在终端运行：
+
+Bash
+python app.py
+3. 访问 Web 界面
+启动成功后，按住 Ctrl 点击终端中显示的本地链接（通常为 http://127.0.0.1:7860）即可进入工作站。
+
+📁 目录结构 (Project Structure)
+Plaintext
+facial_expression/
+├── app.py                    # Gradio Web UI 主程序
+├── train.py                  # 模型训练脚本
+├── best_emotion_model.pth    # 模型权重文件
+├── haarcascade_frontalface_default.xml # 人脸检测器
+└── README.md                 # 项目说明
+🤝 致谢 (Acknowledgments)
+感谢 FER-2013 数据集提供的数据支持。
+
+感谢 PyTorch 与 Gradio 开发团队提供的底层技术框架。
+
+本项目为机器学习课程大作业，旨在探索深度学习在视觉场景下的工程化落地与可解释性研究。
