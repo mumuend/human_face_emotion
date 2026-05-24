@@ -25,8 +25,9 @@
 
 在终端运行以下命令：
 
-**1. 克隆项目**
+****
 ```bash
+**1. 克隆项目**
 git clone [https://github.com/YourUsername/human_face_emotion_identify.git](https://github.com/YourUsername/human_face_emotion_identify.git)
 cd human_face_emotion_identify
 **2. 安装核心依赖库**
