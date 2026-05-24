@@ -1,4 +1,4 @@
-# human_face_emotion
+# human_face_emotion_identify
 数据集采用kaggle上面的公共数据集FER-2013，基线模型为自己搭建一个简单的卷积神经网络（CNN），采用迁移学习，微调预训练的Resnet18，实现
 (1)单个人物图片情绪识别
 (2)人物视频情绪识别
