@@ -40,7 +40,9 @@ pip install moviepy
 pip install numpy Pillow
 🚀 如何启动 (Usage)
 1. 准备权重文件
-确保将训练好的权重文件 best_emotion_model.pth 放置在项目根目录下。
+bash
+python train.py
+训练完毕后，确保将训练好的权重文件 best_emotion_model.pth 放置在项目根目录下。
 
 2. 启动系统
 在终端运行：
@@ -53,9 +55,16 @@ python app.py
 📁 目录结构 (Project Structure)
 Plaintext
 facial_expression/
-├── app.py                    # Gradio Web UI 主程序
-├── train.py                  # 模型训练脚本
-├── best_emotion_model.pth    # 模型权重文件
+├── train.py                   # 模型训练脚本
+├── app.py                     # Gradio Web UI 主程序
+├── best_emotion_model.pth     # 模型权重文件
+├── emotion_camera.py          # Gradio Web UI 主程序
+├── emotion_picture.py         # Gradio Web UI 主程序
+├── emotion_picture_fixed.py   # Gradio Web UI 主程序
+├── people_picture.py          # Gradio Web UI 主程序
+├── people_picture_fixed.py    # Gradio Web UI 主程序
+├── visualize_gradcam.py       # Gradio Web UI 主程序
+├── visualize_gradcam_fixed.py # Gradio Web UI 主程序
 ├── haarcascade_frontalface_default.xml # 人脸检测器
 └── README.md                 # 项目说明
 🤝 致谢 (Acknowledgments)
