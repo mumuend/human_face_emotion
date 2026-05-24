@@ -32,7 +32,6 @@ git clone [https://github.com/YourUsername/human_face_emotion_identify.git](http
 cd human_face_emotion_identify
 **2. 安装核心依赖库**
 
-Bash
 pip install torch torchvision
 pip install opencv-python
 pip install gradio
@@ -40,7 +39,6 @@ pip install moviepy
 pip install numpy Pillow
 🚀 如何启动 (Usage)
 1. 准备权重文件
-bash
 python train.py
 训练完毕后，确保将训练好的权重文件 best_emotion_model.pth 放置在项目根目录下。
 
